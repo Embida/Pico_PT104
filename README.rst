@@ -31,6 +31,7 @@ Installation
 ------------
 
 Linux installation:
+
 1. Install libusb104 following https://www.picotech.com/downloads/linux
 
 Ubuntu 18.04::
@@ -43,6 +44,11 @@ Ubuntu 18.04::
 2. Install this package::
 
     sudo pip3 install https://github.com/trombastic/Pico_PT104/archive/master.zip
+
+Windows installation:
+
+1. Install [PicoSDK (64-bit)](https://www.picotech.com/downloads/_lightbox/pico-software-development-kit-64bit)
+
 
 
 Usage
