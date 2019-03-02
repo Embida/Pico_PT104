@@ -34,7 +34,8 @@ Linux installation:
 
 1. Install libusb104 
 
-Ubuntu 18.04::
+Ubuntu 18.04
+::
     following https://www.picotech.com/downloads/linux
     sudo bash -c 'echo "deb https://labs.picotech.com/debian/ picoscope main" >/etc/apt/sources.list.d/picoscope.list'
     wget -O - https://labs.picotech.com/debian/dists/picoscope/Release.gpg.key | sudo apt-key add -
