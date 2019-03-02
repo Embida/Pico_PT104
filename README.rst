@@ -32,23 +32,22 @@ Installation
 
 Linux installation:
 
-1. Install libusb104 following https://www.picotech.com/downloads/linux
+1. Install libusb104 
 
 Ubuntu 18.04::
-
+    following https://www.picotech.com/downloads/linux
     sudo bash -c 'echo "deb https://labs.picotech.com/debian/ picoscope main" >/etc/apt/sources.list.d/picoscope.list'
     wget -O - https://labs.picotech.com/debian/dists/picoscope/Release.gpg.key | sudo apt-key add -
     sudo apt-get update
     sudo apt-get install libusbpt104
+    
+Windows:
+    Install [PicoSDK](https://www.picotech.com/downloads/_lightbox/pico-software-development-kit-64bit)
+
 
 2. Install this package::
 
     sudo pip3 install https://github.com/trombastic/Pico_PT104/archive/master.zip
-
-Windows installation:
-
-1. Install [PicoSDK (64-bit)](https://www.picotech.com/downloads/_lightbox/pico-software-development-kit-64bit)
-
 
 
 Usage
