@@ -43,7 +43,7 @@ Ubuntu 18.04
     sudo apt-get install libusbpt104
     
 Windows:
-    Install [PicoSDK](https://www.picotech.com/downloads/_lightbox/pico-software-development-kit-64bit)
+    Install PicoSDK: https://www.picotech.com/downloads/_lightbox/pico-software-development-kit-64bit
 
 
 2. Install this package::
